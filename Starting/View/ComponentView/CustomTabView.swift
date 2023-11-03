@@ -15,7 +15,7 @@ struct CustomTabView: View {
         VStack{
             TabView(selection: $selectedIndex) {
                 Text("Formula 1 Teams").tabItem { Label("Teams", systemImage: "flag.2.crossed") }.tag(1)
-                Text("Formula 1 Drivers").tabItem { Label("Drivers", systemImage: "person.fill") }.tag(2)
+                Text("Tab Content 2").tabItem { Label("Drivers", systemImage: "person.fill") }.tag(2)
             }.accentColor(.red)
             
         }
