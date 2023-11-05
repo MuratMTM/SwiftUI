@@ -8,55 +8,56 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+    var body: some View{
+        ZStack {
+            Color.secondary.ignoresSafeArea()
+            CardInfoView()
+            
+        }.frame(width: 300,height: 200)
+            .cornerRadius(20)
     }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        SwiftView()
-    }
-}
-
-struct SwiftView: View {
     
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
+    }
+    
+}
+struct CardInfoView: View{
     
     var body: some View{
         VStack(alignment: .center) {
-            Text("Welcome to SoftHack")
-                .font(.headline)
+            Text(CardInfoText.welcomeMessage)
+                .font(.title2)
                 .fontWeight(.bold)
                 .foregroundColor(.green)
-            .padding(2.0)
+                .padding(2.0)
             
-            Text("This is our mobile application company.")
+            Text(CardInfoText.explanation)
                 .font(.body)
                 .fontWeight(.bold)
                 .foregroundColor(Color.pink)
+                .padding(.bottom,5)
             
-            Spacer()
+            
             HStack {
-                Text("CEO")
+                Text(CardInfoText.title)
                     .font(.headline)
-                    .foregroundColor(Color.brown)
+                    .foregroundColor(Color.indigo)
                     .fontWeight(.bold)
-                Text("Murat Işık")
+                Text(CardInfoText.name)
             }
-           
-        }
             
+            
+        }
     }
 }
 
 
-
-
-
-
+struct CardInfoText {
+    static let welcomeMessage: String = "Welcome to SoftHack"
+    static let explanation: String = "This is our mobile application company."
+    static let title: String = "CEO -"
+    static  let name: String = "Murat Işık"
+}
