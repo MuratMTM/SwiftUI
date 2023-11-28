@@ -18,6 +18,7 @@
 		2562A99E2A9290E90097B9E2 /* DriversDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2562A99D2A9290E90097B9E2 /* DriversDetails.swift */; };
 		2569E5C52A716B280079BF1D /* CardLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2569E5C42A716B280079BF1D /* CardLayout.swift */; };
 		2578774E2AD2FD8800228C95 /* F1ChartBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2578774D2AD2FD8800228C95 /* F1ChartBarView.swift */; };
+		25953A092B11B7040004E753 /* LazyVGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25953A082B11B7040004E753 /* LazyVGridView.swift */; };
 		25A523852A7C139F00C70ED9 /* MyButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A523842A7C139F00C70ED9 /* MyButtonView.swift */; };
 		25A566E82A54862F0043BD45 /* StartingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A566E72A54862F0043BD45 /* StartingApp.swift */; };
 		25A566EA2A54862F0043BD45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A566E92A54862F0043BD45 /* ContentView.swift */; };
@@ -49,6 +50,7 @@
 		2562A99D2A9290E90097B9E2 /* DriversDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriversDetails.swift; sourceTree = "<group>"; };
 		2569E5C42A716B280079BF1D /* CardLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardLayout.swift; sourceTree = "<group>"; };
 		2578774D2AD2FD8800228C95 /* F1ChartBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F1ChartBarView.swift; sourceTree = "<group>"; };
+		25953A082B11B7040004E753 /* LazyVGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridView.swift; sourceTree = "<group>"; };
 		25A523842A7C139F00C70ED9 /* MyButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButtonView.swift; sourceTree = "<group>"; usesTabs = 0; };
 		25A566E42A54862F0043BD45 /* Starting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Starting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25A566E72A54862F0043BD45 /* StartingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingApp.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				2578774D2AD2FD8800228C95 /* F1ChartBarView.swift */,
 				2531B07C2B053B1200A400F6 /* StockMarketView.swift */,
 				2531B0802B05FF4500A400F6 /* StockMarketTrView.swift */,
+				25953A082B11B7040004E753 /* LazyVGridView.swift */,
 			);
 			path = ComponentView;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				2531B0812B05FF4500A400F6 /* StockMarketTrView.swift in Sources */,
 				25CE0A5C2A94C8DE00BF2639 /* CheckTheDriverView.swift in Sources */,
 				25EEAB872A9014A800EF5BA1 /* F1TeamsModel.swift in Sources */,
+				25953A092B11B7040004E753 /* LazyVGridView.swift in Sources */,
 				25DA9AFA2A8FCABC00F3E0C6 /* TabViewSelectedItem.swift in Sources */,
 				25A9D7FD2A5DC5CE007B48DB /* CircleImageView.swift in Sources */,
 				253C701A2ACB124B007EBB8B /* PreTabView.swift in Sources */,
