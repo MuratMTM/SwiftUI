@@ -8,8 +8,44 @@
 import SwiftUI
 
 struct AnimationView: View {
+    private let title: String = "Animations"
+    @State private var scaleValue: Double = 0.75
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            
+            Text(title)
+                .font(.largeTitle)
+                .underline()
+                .bold()
+            Circle()
+                .aspectRatio(contentMode: .fit)
+                .scaleEffect(scaleValue)
+                .animation(.bouncy, value: scaleValue)
+                .padding(.all,10)
+            
+            
+            HStack {
+                
+                Button("Smaller"){
+                    while (scaleValue > 0.2){
+                        scaleValue -= 0.15
+                    }
+                    
+                }.buttonStyle(.bordered)
+                
+                Button("Bigger") {
+                    while(scaleValue <= 1){
+                        scaleValue += 0.15
+                    }
+                    
+                    
+                    
+                }.buttonStyle(.borderedProminent)
+
+            }
+            
+            
+        }
     }
 }
 

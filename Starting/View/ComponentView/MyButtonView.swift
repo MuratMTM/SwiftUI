@@ -1,6 +1,8 @@
 import SwiftUI
 import Kingfisher
 
+
+
 struct EmojiModel: Identifiable, Equatable {
     let id = UUID()
     let symbol: String
@@ -15,7 +17,9 @@ struct EmojiModel: Identifiable, Equatable {
 
 struct MyButtonView: View {
     @State private var selectedEmoji: EmojiModel? = nil
+    @State private var scale: Double = 0.85
     let defaultEmojiURL = "https://cdn.pixabay.com/photo/2020/12/19/03/01/emoji-5843458_640.png"
+    
     
     let emojis: [EmojiModel] = [
         EmojiModel(symbol: "hand.thumbsup.fill", name: "like", color: .blue, imageURL: "https://www.startofhappiness.com/wp-content/uploads/2012/06/smiley-face.jpg"),
@@ -27,19 +31,13 @@ struct MyButtonView: View {
             VStack {
                 // Emoji Container
                 HStack {
-                    if let emoji = selectedEmoji {
-                        KFImage(URL(string: emoji.imageURL))
-                            .resizable()
-                            .scaledToFill()
-                            .frame(width: emojiSize, height: emojiSize)
-                            .transition(.scale)
-                    } else {
-                        KFImage(URL(string: defaultEmojiURL))
-                            .resizable()
-                            .scaledToFill()
-                            .frame(width: emojiSize, height: emojiSize)
-                            .transition(.scale)
-                    }
+                    KFImage(URL(string: selectedEmoji?.imageURL ?? defaultEmojiURL))
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: emojiSize, height: emojiSize)
+                        .scaleEffect(scale)
+                     
+
                 }
                 .overlay(
                     RoundedRectangle(cornerRadius: 20)
