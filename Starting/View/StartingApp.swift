@@ -13,10 +13,11 @@ struct StartingApp: App {
 
     var body: some Scene {
         WindowGroup {
-            NavigationView {
-                TeamsListView(isDarkMode: $isDarkMode) // isDarkMode'u TeamsListView'e ilettik
-            }
-            .preferredColorScheme(isDarkMode ? .dark : .light)
+            MyButtonView()
+//            NavigationView {
+//                TeamsListView(isDarkMode: $isDarkMode) // isDarkMode'u TeamsListView'e ilettik
+//            }
+//            .preferredColorScheme(isDarkMode ? .dark : .light)
         }
     }
 }

@@ -53,9 +53,9 @@ struct PilotProfileView: View {
                 
                
                 
-                HStack{
-                    MyButtonView(buttonSymbol: "hand.thumbsdown.fill", buttonName: "dislike", buttonColor: .red)
-                    MyButtonView(buttonSymbol: "hand.thumbsup.fill", buttonName: "like", buttonColor: .blue)}
+//                HStack{
+//                    MyButtonView(buttonSymbol: "hand.thumbsdown.fill", buttonName: "dislike", buttonColor: .red)
+//                    MyButtonView(buttonSymbol: "hand.thumbsup.fill", buttonName: "like", buttonColor: .blue)}
             }
                 
             }
