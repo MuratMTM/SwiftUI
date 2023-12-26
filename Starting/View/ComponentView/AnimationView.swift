@@ -41,7 +41,7 @@ struct AnimationView: View {
                     
                     
                 }.buttonStyle(.borderedProminent)
-
+                
             }
             
             

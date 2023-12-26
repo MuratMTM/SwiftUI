@@ -35,6 +35,7 @@
 		25D678062A608B3F0019F2BF /* PilotProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D678052A608B3F0019F2BF /* PilotProfileView.swift */; };
 		25DA9AFA2A8FCABC00F3E0C6 /* TabViewSelectedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DA9AF92A8FCABC00F3E0C6 /* TabViewSelectedItem.swift */; };
 		25DA9AFC2A8FCDAE00F3E0C6 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DA9AFB2A8FCDAE00F3E0C6 /* CustomTabView.swift */; };
+		25EA91662B2F2EAC00D5E9F7 /* AnimationTimingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA91652B2F2EAC00D5E9F7 /* AnimationTimingView.swift */; };
 		25EEAB872A9014A800EF5BA1 /* F1TeamsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EEAB862A9014A800EF5BA1 /* F1TeamsModel.swift */; };
 		25F33CBF2A70300400CCCDC5 /* WorkerCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F33CBE2A70300400CCCDC5 /* WorkerCardView.swift */; };
 		25F33CC12A70393300CCCDC5 /* WorkerCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F33CC02A70393300CCCDC5 /* WorkerCardModel.swift */; };
@@ -69,6 +70,7 @@
 		25D678052A608B3F0019F2BF /* PilotProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PilotProfileView.swift; sourceTree = "<group>"; };
 		25DA9AF92A8FCABC00F3E0C6 /* TabViewSelectedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewSelectedItem.swift; sourceTree = "<group>"; };
 		25DA9AFB2A8FCDAE00F3E0C6 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		25EA91652B2F2EAC00D5E9F7 /* AnimationTimingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTimingView.swift; sourceTree = "<group>"; };
 		25EEAB862A9014A800EF5BA1 /* F1TeamsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F1TeamsModel.swift; sourceTree = "<group>"; };
 		25F33CBE2A70300400CCCDC5 /* WorkerCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkerCardView.swift; sourceTree = "<group>"; };
 		25F33CC02A70393300CCCDC5 /* WorkerCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkerCardModel.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				25A9D7FC2A5DC5CE007B48DB /* CircleImageView.swift */,
 				25DA9AFB2A8FCDAE00F3E0C6 /* CustomTabView.swift */,
 				255BF3862AA657220075BE95 /* SliderView.swift */,
+				25EA91652B2F2EAC00D5E9F7 /* AnimationTimingView.swift */,
 				255BF3882AA67A8E0075BE95 /* StepperView.swift */,
 				25BD372F2ABB1AA100DE8562 /* showAlertView.swift */,
 				253C70192ACB124B007EBB8B /* PreTabView.swift */,
@@ -283,6 +286,7 @@
 				25A523852A7C139F00C70ED9 /* MyButtonView.swift in Sources */,
 				2531B0812B05FF4500A400F6 /* StockMarketTrView.swift in Sources */,
 				25CE0A5C2A94C8DE00BF2639 /* CheckTheDriverView.swift in Sources */,
+				25EA91662B2F2EAC00D5E9F7 /* AnimationTimingView.swift in Sources */,
 				25EEAB872A9014A800EF5BA1 /* F1TeamsModel.swift in Sources */,
 				25953A092B11B7040004E753 /* LazyVGridView.swift in Sources */,
 				25B0D2242B18CABB009C2E12 /* StatePropertyView.swift in Sources */,

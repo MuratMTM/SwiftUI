@@ -36,6 +36,31 @@
 			<key>type</key>
 			<string>bookmark</string>
 		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>8</string>
+					<key>EndingLineNumber</key>
+					<string>7</string>
+					<key>StartingColumnNumber</key>
+					<string>8</string>
+					<key>StartingLineNumber</key>
+					<string>7</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>payload</key>
+					<string>file:///var/folders/kx/rjyy4j6n15s_p324cdxnc3xm0000gn/T/swift-generated-sources/@__swiftmacro_8Starting33_BD589A6B3CE2DE7A598A06FB96DF6ACDLl7PreviewfMf_.swift</string>
+				</dict>
+			</dict>
+			<key>title</key>
+			<string>Error: Ambiguous use of 'init(_:traits:body:)'</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
 	</array>
 </dict>
 </plist>
