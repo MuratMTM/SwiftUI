@@ -13,7 +13,7 @@ struct StartingApp: App {
 
     var body: some Scene {
         WindowGroup {
-            MyButtonView()
+            SheetView()
 //            NavigationView {
 //                TeamsListView(isDarkMode: $isDarkMode) // isDarkMode'u TeamsListView'e ilettik
 //            }

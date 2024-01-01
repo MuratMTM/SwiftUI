@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		25254D4C2A97FF0D00FA800F /* TeamsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25254D4B2A97FF0D00FA800F /* TeamsListView.swift */; };
+		2530137E2B42A15800A93E66 /* BasicSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2530137D2B42A15800A93E66 /* BasicSheetView.swift */; };
 		2531B07D2B053B1200A400F6 /* StockMarketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2531B07C2B053B1200A400F6 /* StockMarketView.swift */; };
 		2531B07F2B05FB1C00A400F6 /* StockCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2531B07E2B05FB1C00A400F6 /* StockCardView.swift */; };
 		2531B0812B05FF4500A400F6 /* StockMarketTrView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2531B0802B05FF4500A400F6 /* StockMarketTrView.swift */; };
@@ -35,6 +36,7 @@
 		25D678062A608B3F0019F2BF /* PilotProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D678052A608B3F0019F2BF /* PilotProfileView.swift */; };
 		25DA9AFA2A8FCABC00F3E0C6 /* TabViewSelectedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DA9AF92A8FCABC00F3E0C6 /* TabViewSelectedItem.swift */; };
 		25DA9AFC2A8FCDAE00F3E0C6 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DA9AFB2A8FCDAE00F3E0C6 /* CustomTabView.swift */; };
+		25DAC2B32B45C1600053C9F9 /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DAC2B22B45C1600053C9F9 /* SheetView.swift */; };
 		25EA91662B2F2EAC00D5E9F7 /* AnimationTimingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA91652B2F2EAC00D5E9F7 /* AnimationTimingView.swift */; };
 		25EEAB872A9014A800EF5BA1 /* F1TeamsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EEAB862A9014A800EF5BA1 /* F1TeamsModel.swift */; };
 		25F33CBF2A70300400CCCDC5 /* WorkerCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F33CBE2A70300400CCCDC5 /* WorkerCardView.swift */; };
@@ -43,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		25254D4B2A97FF0D00FA800F /* TeamsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsListView.swift; sourceTree = "<group>"; };
+		2530137D2B42A15800A93E66 /* BasicSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicSheetView.swift; sourceTree = "<group>"; };
 		2531B07C2B053B1200A400F6 /* StockMarketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockMarketView.swift; sourceTree = "<group>"; };
 		2531B07E2B05FB1C00A400F6 /* StockCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockCardView.swift; sourceTree = "<group>"; };
 		2531B0802B05FF4500A400F6 /* StockMarketTrView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockMarketTrView.swift; sourceTree = "<group>"; };
@@ -70,6 +73,7 @@
 		25D678052A608B3F0019F2BF /* PilotProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PilotProfileView.swift; sourceTree = "<group>"; };
 		25DA9AF92A8FCABC00F3E0C6 /* TabViewSelectedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewSelectedItem.swift; sourceTree = "<group>"; };
 		25DA9AFB2A8FCDAE00F3E0C6 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		25DAC2B22B45C1600053C9F9 /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
 		25EA91652B2F2EAC00D5E9F7 /* AnimationTimingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTimingView.swift; sourceTree = "<group>"; };
 		25EEAB862A9014A800EF5BA1 /* F1TeamsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F1TeamsModel.swift; sourceTree = "<group>"; };
 		25F33CBE2A70300400CCCDC5 /* WorkerCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkerCardView.swift; sourceTree = "<group>"; };
@@ -140,8 +144,10 @@
 				253C701B2ACB1A01007EBB8B /* ComponentData */,
 				25A523842A7C139F00C70ED9 /* MyButtonView.swift */,
 				25B7B9A92A82899D00833215 /* TextFieldView.swift */,
+				2530137D2B42A15800A93E66 /* BasicSheetView.swift */,
 				25A9D7FC2A5DC5CE007B48DB /* CircleImageView.swift */,
 				25DA9AFB2A8FCDAE00F3E0C6 /* CustomTabView.swift */,
+				25DAC2B22B45C1600053C9F9 /* SheetView.swift */,
 				255BF3862AA657220075BE95 /* SliderView.swift */,
 				25EA91652B2F2EAC00D5E9F7 /* AnimationTimingView.swift */,
 				255BF3882AA67A8E0075BE95 /* StepperView.swift */,
@@ -276,6 +282,7 @@
 			files = (
 				25D678022A607ECD0019F2BF /* ImagePackageAdd.swift in Sources */,
 				2531B07D2B053B1200A400F6 /* StockMarketView.swift in Sources */,
+				25DAC2B32B45C1600053C9F9 /* SheetView.swift in Sources */,
 				25A566EA2A54862F0043BD45 /* ContentView.swift in Sources */,
 				25D678062A608B3F0019F2BF /* PilotProfileView.swift in Sources */,
 				2569E5C52A716B280079BF1D /* CardLayout.swift in Sources */,
@@ -293,6 +300,7 @@
 				25DA9AFA2A8FCABC00F3E0C6 /* TabViewSelectedItem.swift in Sources */,
 				25A9D7FD2A5DC5CE007B48DB /* CircleImageView.swift in Sources */,
 				253C701A2ACB124B007EBB8B /* PreTabView.swift in Sources */,
+				2530137E2B42A15800A93E66 /* BasicSheetView.swift in Sources */,
 				2578774E2AD2FD8800228C95 /* F1ChartBarView.swift in Sources */,
 				255BF3872AA657220075BE95 /* SliderView.swift in Sources */,
 				25B7B9AA2A82899D00833215 /* TextFieldView.swift in Sources */,
