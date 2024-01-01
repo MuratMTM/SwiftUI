@@ -7,8 +7,12 @@
 
 import SwiftUI
 import Kingfisher
-
+//TF847XSNL6NXUOUZ
 struct StockMarketTrView: View {
+    
+   
+    
+    
     var stocks: [Stock] = [
         Stock(name: "QNBF", imageName: stockImageUrl.finansBank.rawValue, value: 310.75),
         Stock(name: "THYO", imageName: stockImageUrl.thy.rawValue , value: 259.75),
