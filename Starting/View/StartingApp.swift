@@ -9,15 +9,16 @@ import SwiftUI
 
 @main
 struct StartingApp: App {
-    @State private var isDarkMode = false // Başlangıç teması
+    @State private var isDarkMode = false
 
     var body: some Scene {
         WindowGroup {
+
             SheetView()
-//            NavigationView {
-//                TeamsListView(isDarkMode: $isDarkMode) // isDarkMode'u TeamsListView'e ilettik
-//            }
-//            .preferredColorScheme(isDarkMode ? .dark : .light)
+
+            
+
+
         }
     }
 }
