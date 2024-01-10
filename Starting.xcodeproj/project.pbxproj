@@ -30,6 +30,7 @@
 		25B0D2242B18CABB009C2E12 /* StatePropertyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B0D2232B18CABB009C2E12 /* StatePropertyView.swift */; };
 		25B0D2262B18FAAA009C2E12 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B0D2252B18FAAA009C2E12 /* AnimationView.swift */; };
 		25B7B9AA2A82899D00833215 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B7B9A92A82899D00833215 /* TextFieldView.swift */; };
+		25BBD1302B4F406800AD029A /* TxtFldLoginPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BBD12F2B4F406800AD029A /* TxtFldLoginPageView.swift */; };
 		25BD37302ABB1AA100DE8562 /* showAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BD372F2ABB1AA100DE8562 /* showAlertView.swift */; };
 		25CA89F82B4C772200039EC8 /* ActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CA89F72B4C772200039EC8 /* ActionSheetView.swift */; };
 		25CE0A5C2A94C8DE00BF2639 /* CheckTheDriverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CE0A5B2A94C8DE00BF2639 /* CheckTheDriverView.swift */; };
@@ -70,6 +71,7 @@
 		25B0D2232B18CABB009C2E12 /* StatePropertyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePropertyView.swift; sourceTree = "<group>"; };
 		25B0D2252B18FAAA009C2E12 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		25B7B9A92A82899D00833215 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		25BBD12F2B4F406800AD029A /* TxtFldLoginPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TxtFldLoginPageView.swift; sourceTree = "<group>"; };
 		25BD372F2ABB1AA100DE8562 /* showAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showAlertView.swift; sourceTree = "<group>"; };
 		25CA89F72B4C772200039EC8 /* ActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetView.swift; sourceTree = "<group>"; };
 		25CE0A5B2A94C8DE00BF2639 /* CheckTheDriverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckTheDriverView.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				25A9D7FC2A5DC5CE007B48DB /* CircleImageView.swift */,
 				25DA9AFB2A8FCDAE00F3E0C6 /* CustomTabView.swift */,
 				25DAC2B22B45C1600053C9F9 /* SheetView.swift */,
+				25BBD12F2B4F406800AD029A /* TxtFldLoginPageView.swift */,
 				255BF3862AA657220075BE95 /* SliderView.swift */,
 				25EA91652B2F2EAC00D5E9F7 /* AnimationTimingView.swift */,
 				255BF3882AA67A8E0075BE95 /* StepperView.swift */,
@@ -293,6 +296,7 @@
 				25DAC2B32B45C1600053C9F9 /* SheetView.swift in Sources */,
 				25A566EA2A54862F0043BD45 /* ContentView.swift in Sources */,
 				25D678062A608B3F0019F2BF /* PilotProfileView.swift in Sources */,
+				25BBD1302B4F406800AD029A /* TxtFldLoginPageView.swift in Sources */,
 				2569E5C52A716B280079BF1D /* CardLayout.swift in Sources */,
 				255BF3892AA67A8E0075BE95 /* StepperView.swift in Sources */,
 				2562A99E2A9290E90097B9E2 /* DriversDetails.swift in Sources */,
