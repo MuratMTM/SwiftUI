@@ -19,6 +19,7 @@
 		2562A99E2A9290E90097B9E2 /* DriversDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2562A99D2A9290E90097B9E2 /* DriversDetails.swift */; };
 		2569E5C52A716B280079BF1D /* CardLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2569E5C42A716B280079BF1D /* CardLayout.swift */; };
 		2578774E2AD2FD8800228C95 /* F1ChartBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2578774D2AD2FD8800228C95 /* F1ChartBarView.swift */; };
+		257C47D82B4E100100AC484D /* ContextMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257C47D72B4E100100AC484D /* ContextMenuView.swift */; };
 		25953A092B11B7040004E753 /* LazyVGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25953A082B11B7040004E753 /* LazyVGridView.swift */; };
 		25A523852A7C139F00C70ED9 /* MyButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A523842A7C139F00C70ED9 /* MyButtonView.swift */; };
 		25A566E82A54862F0043BD45 /* StartingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A566E72A54862F0043BD45 /* StartingApp.swift */; };
@@ -57,6 +58,7 @@
 		2562A99D2A9290E90097B9E2 /* DriversDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriversDetails.swift; sourceTree = "<group>"; };
 		2569E5C42A716B280079BF1D /* CardLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardLayout.swift; sourceTree = "<group>"; };
 		2578774D2AD2FD8800228C95 /* F1ChartBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F1ChartBarView.swift; sourceTree = "<group>"; };
+		257C47D72B4E100100AC484D /* ContextMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuView.swift; sourceTree = "<group>"; };
 		25953A082B11B7040004E753 /* LazyVGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridView.swift; sourceTree = "<group>"; };
 		25A523842A7C139F00C70ED9 /* MyButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButtonView.swift; sourceTree = "<group>"; usesTabs = 0; };
 		25A566E42A54862F0043BD45 /* Starting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Starting.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,6 +149,7 @@
 				25A523842A7C139F00C70ED9 /* MyButtonView.swift */,
 				25CA89F72B4C772200039EC8 /* ActionSheetView.swift */,
 				25B7B9A92A82899D00833215 /* TextFieldView.swift */,
+				257C47D72B4E100100AC484D /* ContextMenuView.swift */,
 				2530137D2B42A15800A93E66 /* BasicSheetView.swift */,
 				25A9D7FC2A5DC5CE007B48DB /* CircleImageView.swift */,
 				25DA9AFB2A8FCDAE00F3E0C6 /* CustomTabView.swift */,
@@ -286,6 +289,7 @@
 				25D678022A607ECD0019F2BF /* ImagePackageAdd.swift in Sources */,
 				2531B07D2B053B1200A400F6 /* StockMarketView.swift in Sources */,
 				25CA89F82B4C772200039EC8 /* ActionSheetView.swift in Sources */,
+				257C47D82B4E100100AC484D /* ContextMenuView.swift in Sources */,
 				25DAC2B32B45C1600053C9F9 /* SheetView.swift in Sources */,
 				25A566EA2A54862F0043BD45 /* ContentView.swift in Sources */,
 				25D678062A608B3F0019F2BF /* PilotProfileView.swift in Sources */,
