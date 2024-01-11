@@ -12,6 +12,7 @@
 		2531B07D2B053B1200A400F6 /* StockMarketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2531B07C2B053B1200A400F6 /* StockMarketView.swift */; };
 		2531B07F2B05FB1C00A400F6 /* StockCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2531B07E2B05FB1C00A400F6 /* StockCardView.swift */; };
 		2531B0812B05FF4500A400F6 /* StockMarketTrView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2531B0802B05FF4500A400F6 /* StockMarketTrView.swift */; };
+		25382F8E2B50260A00008033 /* TextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25382F8D2B50260A00008033 /* TextEditorView.swift */; };
 		253C701A2ACB124B007EBB8B /* PreTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253C70192ACB124B007EBB8B /* PreTabView.swift */; };
 		253C701D2ACB1A2B007EBB8B /* PreTabIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253C701C2ACB1A2B007EBB8B /* PreTabIndex.swift */; };
 		255BF3872AA657220075BE95 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255BF3862AA657220075BE95 /* SliderView.swift */; };
@@ -52,6 +53,7 @@
 		2531B07C2B053B1200A400F6 /* StockMarketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockMarketView.swift; sourceTree = "<group>"; };
 		2531B07E2B05FB1C00A400F6 /* StockCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockCardView.swift; sourceTree = "<group>"; };
 		2531B0802B05FF4500A400F6 /* StockMarketTrView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockMarketTrView.swift; sourceTree = "<group>"; };
+		25382F8D2B50260A00008033 /* TextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorView.swift; sourceTree = "<group>"; };
 		253C70192ACB124B007EBB8B /* PreTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreTabView.swift; sourceTree = "<group>"; };
 		253C701C2ACB1A2B007EBB8B /* PreTabIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreTabIndex.swift; sourceTree = "<group>"; };
 		255BF3862AA657220075BE95 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				257C47D72B4E100100AC484D /* ContextMenuView.swift */,
 				2530137D2B42A15800A93E66 /* BasicSheetView.swift */,
 				25A9D7FC2A5DC5CE007B48DB /* CircleImageView.swift */,
+				25382F8D2B50260A00008033 /* TextEditorView.swift */,
 				25DA9AFB2A8FCDAE00F3E0C6 /* CustomTabView.swift */,
 				25DAC2B22B45C1600053C9F9 /* SheetView.swift */,
 				25BBD12F2B4F406800AD029A /* TxtFldLoginPageView.swift */,
@@ -302,6 +305,7 @@
 				2562A99E2A9290E90097B9E2 /* DriversDetails.swift in Sources */,
 				253C701D2ACB1A2B007EBB8B /* PreTabIndex.swift in Sources */,
 				25DA9AFC2A8FCDAE00F3E0C6 /* CustomTabView.swift in Sources */,
+				25382F8E2B50260A00008033 /* TextEditorView.swift in Sources */,
 				25A523852A7C139F00C70ED9 /* MyButtonView.swift in Sources */,
 				2531B0812B05FF4500A400F6 /* StockMarketTrView.swift in Sources */,
 				25CE0A5C2A94C8DE00BF2639 /* CheckTheDriverView.swift in Sources */,
