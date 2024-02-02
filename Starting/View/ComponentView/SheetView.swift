@@ -139,21 +139,21 @@ struct SheetDetailView: View{
     
     @Environment(\.presentationMode) var presentationMode
     var deviceFeatures: [DeviceFeature] = [
-        DeviceFeature(title: "Ekran Boyutu", value: "6.7 İnç"),
-        DeviceFeature(title: "Ekran Teknolojisi", value: "AMOLED"),
-        DeviceFeature(title: "Ekran Çözünürlüğü", value: "1440x3216 (QHD+) Piksel"),
-        DeviceFeature(title: "Piksel Yoğunluğu", value: "525 PPI"),
-        DeviceFeature(title: "Ekran Yenileme Hızı", value: "120 Hz"),
-        DeviceFeature(title: "Batarya Kapasitesi", value: "5000 mAh"),
-        DeviceFeature(title: "Hızlı Şarj Gücü", value: "100W"),
-        DeviceFeature(title: "Kablosuz Şarj", value: "Yok"),
-        DeviceFeature(title: "Ekran Dayanıklılığı", value: "Corning Gorilla Glass Victus"),
-        DeviceFeature(title: "Kamera Çözünürlüğü", value: "50 MP"),
-        DeviceFeature(title: "Yonga Seti", value: "Snapdragon 8 Gen 2"),
-        DeviceFeature(title: "Ön Kamera Çözünürlüğü", value: "16 MP"),
-        DeviceFeature(title: "İşletim Sistemi", value: "Android"),
-        DeviceFeature(title: "Kullanıcı Arayüzü", value: "OxygenOS"),
-        DeviceFeature(title: "Çıkış Yılı", value: "2023")
+        DeviceFeature(title: "Screen Size", value: "6.7 İnç"),
+        DeviceFeature(title: "Display", value: "AMOLED"),
+        DeviceFeature(title: "Resolution", value: "1440x3216 (QHD+)"),
+        DeviceFeature(title: "Pixel Density", value: "525 PPI"),
+        DeviceFeature(title: "Refresh Rate", value: "120 Hz"),
+        DeviceFeature(title: "Battery", value: "5000 mAh"),
+        DeviceFeature(title: "Fast Charge", value: "100W"),
+        DeviceFeature(title: "Wireless Charging", value: "No"),
+        DeviceFeature(title: "Screen Durability", value: "Corning Gorilla Glass Victus"),
+        DeviceFeature(title: "Camera", value: "50 MP"),
+        DeviceFeature(title: "CPU", value: "Snapdragon 8 Gen 2"),
+        DeviceFeature(title: "Front Camera", value: "16 MP"),
+        DeviceFeature(title: "OS", value: "Android"),
+        DeviceFeature(title: "User Interface", value: "OxygenOS"),
+        DeviceFeature(title: "Release", value: "2023")
         
         
     ]
@@ -163,7 +163,7 @@ struct SheetDetailView: View{
             NavigationView {
                 List {
                     Section(header:
-                                Text("Cihaz Özellikleri")
+                                Text("Technical Specifications")
                         .font(.system(size: 20, weight: .bold, design: .rounded))
                         .font(.headline)
                         .foregroundColor(.white)

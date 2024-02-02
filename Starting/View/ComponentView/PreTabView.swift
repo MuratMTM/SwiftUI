@@ -44,9 +44,7 @@ struct PreTabView: View {
         }
     }
 }
-
-struct PreTabView_Previews: PreviewProvider {
-    static var previews: some View {
-        PreTabView()
-    }
+#Preview {
+    PreTabView()
+    
 }
