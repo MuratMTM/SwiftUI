@@ -22,14 +22,7 @@ struct PilotProfileView: View {
             
             VStack() {
                
-                KFImage(URL(string: photoUrl))
-                    .resizable()
-                    .frame(width: 300, height: 300, alignment: .center)
-                    .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
-                    .overlay{
-                        Circle().stroke(circleColor,lineWidth: 10)
-                    }
-                    .shadow(radius: /*@START_MENU_TOKEN@*/20/*@END_MENU_TOKEN@*/)
+                ProfileImageCircularView(image: photoUrl, circleColor: circleColor, imageWidth: 300, imageHeight: 300)
                 
                 Text(pilotName)
                     .font(.largeTitle)
@@ -68,5 +61,22 @@ struct PilotProfileView_Previews: PreviewProvider {
         PilotProfileView(pilotName:"Charles Leclerc", photoUrl: "https://cdn-1.motorsport.com/images/amp/6xEm9or0/s1000/charles-leclerc-scuderia-ferra.jpg", country:"Monaco", teamLogoUrl: "https://assets.turbologo.com/blog/tr/2019/10/19134602/ferrari-logo-illustration-958x575.jpg", circleColor: .black)
         
        
+    }
+}
+
+struct ProfileImageCircularView: View {
+    let image: String
+    let circleColor: Color
+    let imageWidth: Double
+    let imageHeight: Double
+    var body: some View {
+        KFImage(URL(string: image))
+            .resizable()
+            .frame(width: imageWidth, height: imageHeight, alignment: .center)
+            .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+            .overlay{
+                Circle().stroke(circleColor,lineWidth: 10)
+            }
+            .shadow(radius: /*@START_MENU_TOKEN@*/20/*@END_MENU_TOKEN@*/)
     }
 }

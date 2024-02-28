@@ -24,6 +24,7 @@
 		2578774E2AD2FD8800228C95 /* F1ChartBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2578774D2AD2FD8800228C95 /* F1ChartBarView.swift */; };
 		257C47D82B4E100100AC484D /* ContextMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257C47D72B4E100100AC484D /* ContextMenuView.swift */; };
 		25953A092B11B7040004E753 /* LazyVGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25953A082B11B7040004E753 /* LazyVGridView.swift */; };
+		259CCE942B8E9017009980C1 /* ObservedObjectStateObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259CCE932B8E9017009980C1 /* ObservedObjectStateObject.swift */; };
 		25A0E09F2B6D65000051858D /* DarkModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A0E09E2B6D65000051858D /* DarkModeView.swift */; };
 		25A523852A7C139F00C70ED9 /* MyButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A523842A7C139F00C70ED9 /* MyButtonView.swift */; };
 		25A566E82A54862F0043BD45 /* StartingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A566E72A54862F0043BD45 /* StartingApp.swift */; };
@@ -69,6 +70,7 @@
 		2578774D2AD2FD8800228C95 /* F1ChartBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F1ChartBarView.swift; sourceTree = "<group>"; };
 		257C47D72B4E100100AC484D /* ContextMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuView.swift; sourceTree = "<group>"; };
 		25953A082B11B7040004E753 /* LazyVGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridView.swift; sourceTree = "<group>"; };
+		259CCE932B8E9017009980C1 /* ObservedObjectStateObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObjectStateObject.swift; sourceTree = "<group>"; };
 		25A0E09E2B6D65000051858D /* DarkModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeView.swift; sourceTree = "<group>"; };
 		25A523842A7C139F00C70ED9 /* MyButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButtonView.swift; sourceTree = "<group>"; usesTabs = 0; };
 		25A566E42A54862F0043BD45 /* Starting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Starting.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -177,6 +179,7 @@
 				2531B07E2B05FB1C00A400F6 /* StockCardView.swift */,
 				25A523842A7C139F00C70ED9 /* MyButtonView.swift */,
 				25CA89F72B4C772200039EC8 /* ActionSheetView.swift */,
+				259CCE932B8E9017009980C1 /* ObservedObjectStateObject.swift */,
 				250CC1572B8B26C4001EDC35 /* OnTapGestureView.swift */,
 				25B7B9A92A82899D00833215 /* TextFieldView.swift */,
 				257C47D72B4E100100AC484D /* ContextMenuView.swift */,
@@ -331,6 +334,7 @@
 				25BBD1302B4F406800AD029A /* TxtFldLoginPageView.swift in Sources */,
 				2569E5C52A716B280079BF1D /* CardLayout.swift in Sources */,
 				255BF3892AA67A8E0075BE95 /* StepperView.swift in Sources */,
+				259CCE942B8E9017009980C1 /* ObservedObjectStateObject.swift in Sources */,
 				2562A99E2A9290E90097B9E2 /* DriversDetails.swift in Sources */,
 				25A0E09F2B6D65000051858D /* DarkModeView.swift in Sources */,
 				253C701D2ACB1A2B007EBB8B /* PreTabIndex.swift in Sources */,
