@@ -75,7 +75,7 @@ struct ProfileImageCircularView: View {
             .frame(width: imageWidth, height: imageHeight, alignment: .center)
             .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
             .overlay{
-                Circle().stroke(circleColor,lineWidth: 10)
+                Circle().stroke(circleColor,lineWidth: 3)
             }
             .shadow(radius: /*@START_MENU_TOKEN@*/20/*@END_MENU_TOKEN@*/)
     }
