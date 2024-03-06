@@ -50,6 +50,8 @@
 		25EEAB872A9014A800EF5BA1 /* F1TeamsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EEAB862A9014A800EF5BA1 /* F1TeamsModel.swift */; };
 		25F33CBF2A70300400CCCDC5 /* WorkerCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F33CBE2A70300400CCCDC5 /* WorkerCardView.swift */; };
 		25F33CC12A70393300CCCDC5 /* WorkerCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F33CC02A70393300CCCDC5 /* WorkerCardModel.swift */; };
+		25F986632B98A30F00DDF481 /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F986622B98A30F00DDF481 /* Tasks.swift */; };
+		25F986692B98A72400DDF481 /* TasksModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F986682B98A72400DDF481 /* TasksModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -96,6 +98,8 @@
 		25EEAB862A9014A800EF5BA1 /* F1TeamsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F1TeamsModel.swift; sourceTree = "<group>"; };
 		25F33CBE2A70300400CCCDC5 /* WorkerCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkerCardView.swift; sourceTree = "<group>"; };
 		25F33CC02A70393300CCCDC5 /* WorkerCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkerCardModel.swift; sourceTree = "<group>"; };
+		25F986622B98A30F00DDF481 /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
+		25F986682B98A72400DDF481 /* TasksModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				25382F902B50524400008033 /* ConcurrencyModel */,
+				25F986622B98A30F00DDF481 /* Tasks.swift */,
 			);
 			path = ConcurrencySwift;
 			sourceTree = "<group>";
@@ -122,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				25382F922B50546400008033 /* SofthackModel.swift */,
+				25F986682B98A72400DDF481 /* TasksModel.swift */,
 			);
 			path = ConcurrencyModel;
 			sourceTree = "<group>";
@@ -338,6 +344,7 @@
 				2562A99E2A9290E90097B9E2 /* DriversDetails.swift in Sources */,
 				25A0E09F2B6D65000051858D /* DarkModeView.swift in Sources */,
 				253C701D2ACB1A2B007EBB8B /* PreTabIndex.swift in Sources */,
+				25F986632B98A30F00DDF481 /* Tasks.swift in Sources */,
 				25DA9AFC2A8FCDAE00F3E0C6 /* CustomTabView.swift in Sources */,
 				25382F8E2B50260A00008033 /* TextEditorView.swift in Sources */,
 				25DBD1922B83EE410016D932 /* IfLetGuard.swift in Sources */,
@@ -354,6 +361,7 @@
 				2530137E2B42A15800A93E66 /* BasicSheetView.swift in Sources */,
 				2578774E2AD2FD8800228C95 /* F1ChartBarView.swift in Sources */,
 				255BF3872AA657220075BE95 /* SliderView.swift in Sources */,
+				25F986692B98A72400DDF481 /* TasksModel.swift in Sources */,
 				25B7B9AA2A82899D00833215 /* TextFieldView.swift in Sources */,
 				25254D4C2A97FF0D00FA800F /* TeamsListView.swift in Sources */,
 				25BD37302ABB1AA100DE8562 /* showAlertView.swift in Sources */,
