@@ -16,15 +16,13 @@ struct LazyVGridView: View {
         GridItem(.fixed(100), spacing: 20),
         GridItem(.fixed(80), spacing: 30, alignment: .center),
         
-        
-        
-    ]
+        ]
+    
     var body: some View {
         NavigationView{
             ScrollView{
                 LazyVGrid(columns: columns) {
                     ForEach(bookImage, id: \.self) { url in
-                        
                         
                         Group {
                             KFImage.url(URL(string: url)!)
@@ -67,10 +65,8 @@ private var bookImage = [
     "https://www.thehandbook.com/cdn-cgi/image/width=326,height=500,fit=cover,q=80,format=webp/https://files.thehandbook.com/uploads/2022/12/out-of-office.jpg",
     "https://www.thehandbook.com/cdn-cgi/image/width=975,height=1200,fit=cover,q=80,format=webp/https://files.thehandbook.com/uploads/2022/12/if-in-doubt-wash-your-hair.jpg",
     "https://www.thehandbook.com/cdn-cgi/image/width=326,height=500,fit=cover,q=80,format=webp/https://files.thehandbook.com/uploads/2022/12/why-has-noboday-told-me-this-before.jpg"
-    
-    
-    
-]
+
+    ]
 
 enum ImageSize: Double {
     case imageWidth = 140.0

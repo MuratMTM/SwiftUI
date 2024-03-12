@@ -14,7 +14,7 @@ struct StartingApp: App {
     var body: some Scene {
         WindowGroup {
 
-           ObservedObjectStateObject()
+            AppStorageView()
 
             
 
