@@ -18,21 +18,21 @@ struct BackgroundMaterials: View {
                     .padding()
                 
                 Spacer()
-                    
-                    
-                    
-                   
+                
+                
+                
+                
             }
             .frame(height: 300)
             .frame(maxWidth: .infinity)
             .background(.ultraThinMaterial)
-           
-        }.ignoresSafeArea()
             
+        }.ignoresSafeArea()
+        
             .background(
-            Image("papara4")
-                .resizable()
-                .frame(height: 870)
+                Image("papara4")
+                    .resizable()
+                    .frame(height: 870)
             )
     }
 }
