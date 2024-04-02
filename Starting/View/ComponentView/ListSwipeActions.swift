@@ -33,7 +33,9 @@ struct ListSwipeActions: View {
                                     .font(.footnote)
                                     .fontWeight(.light)
                             }
-                        }.swipeActions(edge: .trailing, allowsFullSwipe: true) {
+                            
+                        }
+                        .swipeActions(edge: .trailing, allowsFullSwipe: true) {
                             
                             Button(action: {},
                                    label: {
