@@ -7,14 +7,11 @@
 
 import SwiftUI
 
-
 struct TxtFldLoginPageView: View {
-  
+    
     @State var username: String = ""
     @State var password: String = ""
     
-    
-  
     var body: some View {
         ZStack{
             Image("books")
@@ -37,38 +34,42 @@ struct TxtFldLoginPageView: View {
                     .italic()
                     .font(.largeTitle)
                     .padding(.bottom,80)
-                    
                 
-                    
-                    
                 TextField("Kullanıcı Adı", text: $username)
                     .padding(20)
                     .background(Color.white.cornerRadius(10))
+                    .submitLabel(.next)
+                    .onSubmit {
+                        print("submit label is added.")
+                    }
                 
                 SecureField("Şifre", text: $password)
                     .padding(20)
                     .background(Color.white.cornerRadius(10))
+                    .submitLabel(.go)
+                    .onSubmit {
+                        print("now,user can acces the account.")
+                    }
+                
                 Spacer()
                 
                 Button(action: {
-                              
-                               print("Kullanıcı Adı: \(username), Şifre: \(password)")
+                    
+                    print("Kullanıcı Adı: \(username), Şifre: \(password)")
                 }) {
-                               Text("Giriş Yap")
+                    Text("Giriş Yap")
                         .frame(maxWidth: 200)
-                                   .padding()
-                                   .foregroundColor(.white)
-                                   .background(Color.yellow.opacity(50))
-                                   .cornerRadius(20)
-                                   
+                        .padding()
+                        .foregroundColor(.white)
+                        .background(Color.yellow.opacity(50))
+                        .cornerRadius(20)
+                    
                 }.padding()
                 Spacer()
-                    
             }.padding(.all, 10)
         }
     }
     
-   
 }
 
 #Preview {
