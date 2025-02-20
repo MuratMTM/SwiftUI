@@ -13,6 +13,7 @@
 		2531B07D2B053B1200A400F6 /* StockMarketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2531B07C2B053B1200A400F6 /* StockMarketView.swift */; };
 		2531B07F2B05FB1C00A400F6 /* StockCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2531B07E2B05FB1C00A400F6 /* StockCardView.swift */; };
 		2531B0812B05FF4500A400F6 /* StockMarketTrView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2531B0802B05FF4500A400F6 /* StockMarketTrView.swift */; };
+		2533C1A12C83DA1B00699BE6 /* GithubNetworkCallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2533C1A02C83DA1B00699BE6 /* GithubNetworkCallView.swift */; };
 		25382F8E2B50260A00008033 /* TextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25382F8D2B50260A00008033 /* TextEditorView.swift */; };
 		25382F932B50546400008033 /* SofthackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25382F922B50546400008033 /* SofthackModel.swift */; };
 		253C701A2ACB124B007EBB8B /* PreTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253C70192ACB124B007EBB8B /* PreTabView.swift */; };
@@ -28,6 +29,7 @@
 		2578774E2AD2FD8800228C95 /* F1ChartBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2578774D2AD2FD8800228C95 /* F1ChartBarView.swift */; };
 		257C47D82B4E100100AC484D /* ContextMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257C47D72B4E100100AC484D /* ContextMenuView.swift */; };
 		2584DBEB2BB4E8B500330D62 /* ListSwipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2584DBEA2BB4E8B500330D62 /* ListSwipeActions.swift */; };
+		258AC9F82D67AEB8004DD4CE /* MlongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258AC9F72D67AEB8004DD4CE /* MlongPressGesture.swift */; };
 		258B96522BBC9ECF00BB3F7F /* FocusState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258B96512BBC9ECF00BB3F7F /* FocusState.swift */; };
 		25953A092B11B7040004E753 /* LazyVGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25953A082B11B7040004E753 /* LazyVGridView.swift */; };
 		259CCE942B8E9017009980C1 /* ObservedObjectStateObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259CCE932B8E9017009980C1 /* ObservedObjectStateObject.swift */; };
@@ -58,6 +60,7 @@
 		25F33CC12A70393300CCCDC5 /* WorkerCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F33CC02A70393300CCCDC5 /* WorkerCardModel.swift */; };
 		25F986632B98A30F00DDF481 /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F986622B98A30F00DDF481 /* Tasks.swift */; };
 		25F986692B98A72400DDF481 /* TasksModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F986682B98A72400DDF481 /* TasksModel.swift */; };
+		25FBC6AE2BD01C61009BA1CE /* NavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FBC6AD2BD01C61009BA1CE /* NavigationStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +70,7 @@
 		2531B07C2B053B1200A400F6 /* StockMarketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockMarketView.swift; sourceTree = "<group>"; };
 		2531B07E2B05FB1C00A400F6 /* StockCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockCardView.swift; sourceTree = "<group>"; };
 		2531B0802B05FF4500A400F6 /* StockMarketTrView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockMarketTrView.swift; sourceTree = "<group>"; };
+		2533C1A02C83DA1B00699BE6 /* GithubNetworkCallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubNetworkCallView.swift; sourceTree = "<group>"; };
 		25382F8D2B50260A00008033 /* TextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorView.swift; sourceTree = "<group>"; };
 		25382F922B50546400008033 /* SofthackModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SofthackModel.swift; sourceTree = "<group>"; };
 		253C70192ACB124B007EBB8B /* PreTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreTabView.swift; sourceTree = "<group>"; };
@@ -82,6 +86,7 @@
 		2578774D2AD2FD8800228C95 /* F1ChartBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F1ChartBarView.swift; sourceTree = "<group>"; };
 		257C47D72B4E100100AC484D /* ContextMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuView.swift; sourceTree = "<group>"; };
 		2584DBEA2BB4E8B500330D62 /* ListSwipeActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSwipeActions.swift; sourceTree = "<group>"; };
+		258AC9F72D67AEB8004DD4CE /* MlongPressGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MlongPressGesture.swift; sourceTree = "<group>"; };
 		258B96512BBC9ECF00BB3F7F /* FocusState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusState.swift; sourceTree = "<group>"; };
 		25953A082B11B7040004E753 /* LazyVGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridView.swift; sourceTree = "<group>"; };
 		259CCE932B8E9017009980C1 /* ObservedObjectStateObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObjectStateObject.swift; sourceTree = "<group>"; };
@@ -112,6 +117,7 @@
 		25F33CC02A70393300CCCDC5 /* WorkerCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkerCardModel.swift; sourceTree = "<group>"; };
 		25F986622B98A30F00DDF481 /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
 		25F986682B98A72400DDF481 /* TasksModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksModel.swift; sourceTree = "<group>"; };
+		25FBC6AD2BD01C61009BA1CE /* NavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +137,7 @@
 			children = (
 				25382F902B50524400008033 /* ConcurrencyModel */,
 				25F986622B98A30F00DDF481 /* Tasks.swift */,
+				2533C1A02C83DA1B00699BE6 /* GithubNetworkCallView.swift */,
 			);
 			path = ConcurrencySwift;
 			sourceTree = "<group>";
@@ -204,8 +211,10 @@
 				255D4E4A2BACED3200A022C3 /* AsyncImageView.swift */,
 				250CC1572B8B26C4001EDC35 /* OnTapGestureView.swift */,
 				257192C72B9E71C3004557C4 /* AppStorage.swift */,
+				25FBC6AD2BD01C61009BA1CE /* NavigationStack.swift */,
 				25B7B9A92A82899D00833215 /* TextFieldView.swift */,
 				2584DBEA2BB4E8B500330D62 /* ListSwipeActions.swift */,
+				258AC9F72D67AEB8004DD4CE /* MlongPressGesture.swift */,
 				257C47D72B4E100100AC484D /* ContextMenuView.swift */,
 				2530137D2B42A15800A93E66 /* BasicSheetView.swift */,
 				25A9D7FC2A5DC5CE007B48DB /* CircleImageView.swift */,
@@ -302,7 +311,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					25A566E32A54862F0043BD45 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -375,6 +384,7 @@
 				25EA91662B2F2EAC00D5E9F7 /* AnimationTimingView.swift in Sources */,
 				25EEAB872A9014A800EF5BA1 /* F1TeamsModel.swift in Sources */,
 				25953A092B11B7040004E753 /* LazyVGridView.swift in Sources */,
+				25FBC6AE2BD01C61009BA1CE /* NavigationStack.swift in Sources */,
 				25B0D2242B18CABB009C2E12 /* StatePropertyView.swift in Sources */,
 				255D4E4B2BACED3200A022C3 /* AsyncImageView.swift in Sources */,
 				25DA9AFA2A8FCABC00F3E0C6 /* TabViewSelectedItem.swift in Sources */,
@@ -387,11 +397,13 @@
 				255ECD842BBB7E65000BFA32 /* TabViewBadges.swift in Sources */,
 				25B7B9AA2A82899D00833215 /* TextFieldView.swift in Sources */,
 				25254D4C2A97FF0D00FA800F /* TeamsListView.swift in Sources */,
+				258AC9F82D67AEB8004DD4CE /* MlongPressGesture.swift in Sources */,
 				25BD37302ABB1AA100DE8562 /* showAlertView.swift in Sources */,
 				25F33CC12A70393300CCCDC5 /* WorkerCardModel.swift in Sources */,
 				25F33CBF2A70300400CCCDC5 /* WorkerCardView.swift in Sources */,
 				25B0D2262B18FAAA009C2E12 /* AnimationView.swift in Sources */,
 				258B96522BBC9ECF00BB3F7F /* FocusState.swift in Sources */,
+				2533C1A12C83DA1B00699BE6 /* GithubNetworkCallView.swift in Sources */,
 				250CC1582B8B26C4001EDC35 /* OnTapGestureView.swift in Sources */,
 				25A566E82A54862F0043BD45 /* StartingApp.swift in Sources */,
 				2531B07F2B05FB1C00A400F6 /* StockCardView.swift in Sources */,
@@ -405,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -466,6 +479,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -533,6 +547,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -562,6 +577,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
